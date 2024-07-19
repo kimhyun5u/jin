@@ -75,8 +75,8 @@ public class Server {
         addRoute("POST", path, handler);
     }
 
-    public void staticFiles(String path, String staticPath) {
-        router.staticFiles(path, staticPath);
+    public void staticFiles(String path, Handler staticHandler) {
+        router.staticFiles(path, staticHandler);
     }
 
     public static Server defaultServer(int port, int threadPoolSize) {
