@@ -34,7 +34,7 @@ mavenPublishing {
 
     pom {
         name = "jin"
-        description = "Jin is a HTTP web framework written in Java . It features a Martini-like API with much better performance -- up to 1x faster. If you need similar performance, get yourself some Jin."
+        description = "Jin is a HTTP web framework written in Java . It features a coffee-like API with much better performance -- up to 1x faster. If you need similar performance, get yourself some Jin."
         inceptionYear = "2024"
         url = "https://github.com/kimhyun5u/jin"
         licenses {
